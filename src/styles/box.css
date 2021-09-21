@@ -1,0 +1,58 @@
+.board__box {
+  /* background-image:url("../images/board.png"); */
+    
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: calc(250px / 3);
+    height: calc(250px / 3);
+    font-size: 32px;
+    color: #111;
+    background-color: #fff;
+    border: 1px solid #aaa;
+  }
+
+  .circle {
+    width: 70px;
+    height: 70px;
+    padding: 1%;
+    box-shadow: 10px 5px black;
+    color: #111;
+    font-size: 32px;
+    background-color: rgba(43,29,14);
+    border: 5px solid rgb(101,67,33);
+    border-radius: 50%
+  }
+    
+
+  .octagon {
+    width: calc(250px / 3);
+    height: calc(250px / 3);
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid #aaa;
+    position: relative;
+  }
+  .octagon:before {
+    content: "";
+    width: 80px;
+    height: 0px;
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+    border-bottom: 29px solid rgb(0, 0, 0);
+    border-left: 29px solid #eee;
+    border-right: 29px solid #eee;
+  }
+  .octagon:after {
+    content: "";
+    width: 80px;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 29px solid rgb(0, 0, 0);
+    border-left: 29px solid #eee;
+    border-right: 29px solid #eee;
+  }

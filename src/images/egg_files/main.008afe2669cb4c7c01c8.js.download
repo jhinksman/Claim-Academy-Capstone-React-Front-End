@@ -1,0 +1,12 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8">
+  <title>Mhs2WebTools</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<style>body{background-color:#dfba80;}</style><link rel="stylesheet" href="styles.7fa46820548916c9f848.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.7fa46820548916c9f848.css"></noscript></head>
+<body>
+  <app-root></app-root>
+<script src="runtime.18e472cdc712c55530aa.js" defer></script><script src="polyfills.25fbecb30362a2e5712f.js" defer></script><script src="main.a545ba1467598f0ab535.js" defer></script>
+
+</body></html>
